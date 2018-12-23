@@ -1,0 +1,36 @@
+{
+  "name": "foundation-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andriy Zhilyaev",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-clean-css": "^4.0.0",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-plumber": "^1.2.1",
+    "gulp-pngquant": "^1.0.12",
+    "gulp-rename": "^1.4.0",
+    "gulp-rigger": "^0.5.8",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.1",
+    "gulp-watch": "^5.0.1",
+    "motion-ui": "^2.0.3",
+    "node-sass": "^4.10.0",
+    "panini": "^1.6.3"
+  },
+  "dependencies": {
+    "foundation-sites": "^6.5.1",
+    "gulp-install": "^1.1.0",
+    "gulp-jquery": "^1.1.2",
+    "imagemin-pngquant": "^6.0.0",
+    "jquery": "^3.3.1"
+  }
+}
