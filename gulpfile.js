@@ -9,9 +9,9 @@ var gulp = require('gulp'),
     rename = require("gulp-rename"),
     imagemin = require('gulp-imagemin'),
     pngquant = require('imagemin-pngquant'),
-    plumber = require('gulp-plumber');
-    browserSync = require('browser-sync').create();
-    reload = browserSync.reload;
+    plumber = require('gulp-plumber'),
+    browserSync = require('browser-sync').create(),
+    reload = browserSync.reload,
     panini = require('panini');
 
 var path = {
